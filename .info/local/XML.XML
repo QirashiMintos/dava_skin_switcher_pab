@@ -18,10 +18,6 @@
             <userString>ApppearancePanel/Grade/Legendary</userString> <!-- Легендарные -->
             <rarity>40</rarity>
         </legendary>
-        <TEST>
-            <userString>TEST_NAME</userString>  <!-- Название категории из ru.yaml -->
-            <rarity>50</rarity>                 <!-- Редкость, отвечает за категорию камуфляжа -->
-        </TEST>
     </groups>
 	<camouflages>
 		<the_stony_soil> <!-- Начало блока для камуфляжа "the_stony_soil" -->
@@ -30,7 +26,7 @@
 			<description>#vehicle_customization:camouflage/Decription/TEST</description> <!-- Ключ для строки с описанием камуфляжа -->
 			<icon>~res:/Gfx/UI/CamouflagesShop/TEST.txt</icon> <!-- Путь к иконке камуфляжа -->
 			<category>common-camo-credits</category> <!-- Категория камуфляжа (для сортировки и фильтрации) -->
-			<group>TEST</group> <!-- Группа камуфляжа (для классификации) -->
+			<group>legendary</group> <!-- Группа камуфляжа (для классификации) -->
 			<kind>winter summer desert</kind> <!-- Типы окружений, в которых используется камуфляж (зима, лето, пустыня) -->
 			<notInShop>false</notInShop> <!-- Флаг, указывающий, доступен ли камуфляж в магазине (false - доступен) -->
 			<unlockCostCategory>silver-common-unlock</unlockCostCategory> <!-- Категория стоимости разблокировки камуфляжа (за серебро) -->
